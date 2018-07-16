@@ -99,3 +99,26 @@ if( $a == "something" ){
  * ADVANCED: if you have completed this, try modifying your code to ask for two player names and assign X and O to each player name, printing
  * out the results.
  */
+
+/**
+ * ------------------------------------------
+ * More Logical Operators
+ * ------------------------------------------
+ * There are more advanced things you can do within an if statement, you can have multiple clauses within an if statement and we do this
+ * with the OR operator or the AND operator
+ *
+ * OR   ||
+ * AND  &&
+ *
+ * so we can evaluate multiple things are true before carrying out some code such as :
+ */
+$a = 6;
+$b = 2;
+$c = 10;
+if( $a > 5 && $b < $c ){
+
+}
+
+/**
+ * You could also do 
+ */
