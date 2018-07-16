@@ -120,5 +120,62 @@ if( $a > 5 && $b < $c ){
 }
 
 /**
- * You could also do 
+ * You could also do :
  */
+
+if($a == 6 || $c == 10 ){
+  
+}
+/**
+ * ------------------------------------------
+ * EXERCISE TIME!
+ * ------------------------------------------
+ * experiment with these two operators, maybe modify your original code 
+ * to make use of these. Maybe the ||  operator can be used in checking 
+ * wheter the user entered a valid input
+ *  
+ */
+
+/**
+ * ------------------------------------------
+ * String Operators
+ * ------------------------------------------
+ * So we've covered maths and logic operators, where maths operators are good with numbers.
+ * but what about string ? sure it doesn't make sense to use > on two words e.g.
+ * "bob" < "sophie" ....hahaha or is she ;)
+ * now because php is awkward, it'll probably give you a true/false answer to that,
+ * but most programming languages would explode and not let you use maths operators 
+ * on strings.
+ * again PHP will lets you do "mike"+"sophie"...try it, you'll probably get 1.
+ * 
+ * HOWEVER, sometimes we do want to add strings together, but what we want to do is :
+ * "mike"+" loves "+"sophie" becomes "mike loves sophie"
+ *
+ * to do this, is not called addition but concatenation, we concatenate strings together
+ * using the dot character like so :
+ */
+$a = "Mike" . " loves ". "Sophie"."\n";
+print $a;
+
+/**
+ * We can also do this with variables that hold strings :
+ */
+$first_name = "Sophie";
+$last_name = "Anderton";
+$name = $first_name . " " . $last_name ."\n";
+print $name;
+
+/**
+ * ------------------------------------------
+ * EXERCISE TIME!
+ * ------------------------------------------
+ * experiment with concatenation. PHP will concatenate any variable type whether its string 
+ * integer boolean, float etc. Experiment with different variable types to understand how PHP
+ * works with this.
+ *  
+ */
+
+
+
+
+
