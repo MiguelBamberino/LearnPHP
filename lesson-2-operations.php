@@ -3,18 +3,18 @@
  * ------------------------------------------
  * Operators
  * ------------------------------------------
- * An operator in a programming language is a symbol that tells the computer to perform specific mathematical,
- * relational or logical operation and produce a final result.
+ * An operator in a programming language is a symbol that tells the computer to perform 
+ * specific mathematical or logical operation and produce a final result.
  *
  * ------------------------------------------
  * Arithmetic Operators
  * ------------------------------------------
  * If variables contain integer or float values then we can perform maths with them.
- * add -> +
- * subtract -> -
- * multiply -> *
- * divide -> /
- * brackets -> ()
+ * add: +
+ * subtract: -
+ * multiply: *
+ * divide: /
+ * brackets: ()
  *
  * examples :
  */
@@ -26,7 +26,7 @@ $a = 8/4;
 $a = 8-4;
 $b = 5;
 $a = $b + 1;
-$c = $a + £b;
+$c = $a + $b;
 
 /**
  * if we want to output any of these variables we can use the print keyword like so:
@@ -35,14 +35,16 @@ print "Result: \n";
 print $a;
 print "\n";
 /**
- * we also need to print \n so the it adds a new line to our output, this is purely for display. It makes it more readable.
+ * we also need to print the characters \n so the it adds a new line to our output, this is purely for display. 
+ * It makes it more readable.
  */
 
 /**
  * ------------------------------------------
  * EXERCISE TIME!
  * ------------------------------------------
- * now experiment with the different maths operators and moving variables into different places to see how the values change on output.
+ * now experiment with the different maths operators and moving variables into different places to see how the 
+ * values change on output.
  */
 
 
@@ -67,7 +69,7 @@ $answer = 5 > 4;
 
 /**
  * logical operators have more use within if statements, because now we can start doing INTERESTING things with the code.
- * we can start making behaviour based on decisions. such as :
+ * we can start creating behaviours based on decisions. such as :
  */
 $a = 5;
 $b = 6;
@@ -96,16 +98,16 @@ if( $a == "something" ){
 
 }
 /**
- * ADVANCED: if you have completed this, try modifying your code to ask for two player names and assign X and O to each player name, printing
- * out the results.
+ * ADVANCED: if you have completed this, try modifying your code to ask for two player names and assign X and O to each player name, 
+ * printing output the results.
  */
 
 /**
  * ------------------------------------------
  * More Logical Operators
  * ------------------------------------------
- * There are more advanced things you can do within an if statement, you can have multiple clauses within an if statement and we do this
- * with the OR operator or the AND operator
+ * There are more advanced things you can do within an if statement, you can have multiple clauses within an if statement and we 
+ * do this with the OR operator or the AND operator
  *
  * OR   ||
  * AND  &&
@@ -140,7 +142,7 @@ if($a == 6 || $c == 10 ){
  * ------------------------------------------
  * String Operators
  * ------------------------------------------
- * So we've covered maths and logic operators, where maths operators are good with numbers.
+ * So we've covered maths and logic operators. Maths operators are good with numbers.
  * but what about string ? sure it doesn't make sense to use > on two words e.g.
  * "bob" < "sophie" ....hahaha or is she ;)
  * now because php is awkward, it'll probably give you a true/false answer to that,
