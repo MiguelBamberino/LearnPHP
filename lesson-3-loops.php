@@ -65,10 +65,11 @@ $names[3] = "susan";
 /*
  * You will notice we have used the [] brackets again, but this time we have placed a number inside.
  * the value inside the [] brackets is called the index and much like an isbn number in a library,
- * is the look up reference for that position in the array. You will also notice that the numbers
- * start at 0 rather than 1, there is a reason for this but its somewhat lost to the depths of programming history.
- * each index is unique, so once you have populated position 2 with the string value "graham", it
- * is fixed and there can only be 1 value at position 2, which you wanted, could overidden with */
+ * is the look up reference for that position in the array. An index can also be referred to as a key
+ * You will also notice that the numbers start at 0 rather than 1, there is a reason for this but 
+ * its somewhat lost to the depths of programming history. Each index is unique, so once you have 
+ * populated position 2 with the string value "graham", it is fixed and there can only be 1 value 
+ * at position 2, which you wanted, could overidden with */
  $names[2] = "mike"; 
  /*
   * If we want to access that variable we would do :
@@ -83,9 +84,24 @@ $names[3] = "susan";
   * - what happens when you access an index that doesn't exist ? 
   * - can the index be a negative number ?
   * - what about a decimal number ? (you'll get weird behaviour here...)
+  *
+  *
+  *----------------------------------------
+  * Array indexes as strings 
+  *----------------------------------------
+  * Now you have had a play around with a basic array, lets discuss the index/key. You
+  * will have noticed it only works if the index is an integer of zero an above.
+  * However you can also use strings for the index like so :
   */
-   
-   
+  $products=[];
+  $products['XRT345'] = "1kg bag of rice";
+  $products['CVE322'] = "1kg bag of pasta";
+  $products['LER788'] = "400g of baked beans";
+  /*
+   * This becomes very useful at giving more meaning to our data and the key we store it with
+   * as in the example above we have some product descriptions, indexed by their product code.
+   * This can also be useful 
+   */
    
    
 
