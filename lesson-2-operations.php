@@ -41,7 +41,7 @@ print "\n";
 
 /**
  * ------------------------------------------
- * EXERCISE TIME!
+ * 2.1 EXERCISE TIME!
  * ------------------------------------------
  * now experiment with the different maths operators and moving variables into different places to see how the 
  * values change on output.
@@ -81,7 +81,7 @@ if( $a == $b ){
 
 /**
  * ------------------------------------------
- * EXERCISE TIME!
+ * 2.2 EXERCISE TIME!
  * ------------------------------------------
  * lets start the beginning of creating a naughts and crosses game. I've added some code for getting input in the cmd line
  * from the user. Create a new php file called game.php and copy the below code into your own php file. Modify it to ask
@@ -130,7 +130,7 @@ if($a == 6 || $c == 10 ){
 }
 /**
  * ------------------------------------------
- * EXERCISE TIME!
+ * 2.3 EXERCISE TIME!
  * ------------------------------------------
  * experiment with these two operators, maybe modify your original code 
  * to make use of these. Maybe the ||  operator can be used in checking 
@@ -169,7 +169,7 @@ print $name;
 
 /**
  * ------------------------------------------
- * EXERCISE TIME!
+ * 2.4 EXERCISE TIME!
  * ------------------------------------------
  * experiment with concatenation. PHP will concatenate any variable type whether its string 
  * integer boolean, float etc. Experiment with different variable types to understand how PHP
