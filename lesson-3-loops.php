@@ -137,9 +137,9 @@ $names[3] = "susan";
  *----------------------------------
  * So there are three main kinds of loops : while, for and foreach
  *
- * while - i used to run an infinite loop untill some conditions is met. WARNING!
+ * WHILE loops are used to run an infinite loop untill some conditions is met. WARNING!
  * many a programmer has crashed their pc by missusing a while (i actually did this in second yr)
- * a while loop looks a bit like an if statement :
+ * a while loop looks like this :
  */
   $you_are_a_poop = true;
   $counter =0;
@@ -153,13 +153,48 @@ print "The time has arrived, you are no longer a poop \n";
 /**
  * So we can see from this code that we set a starting value for our condition to true,
  * yes you are a poop. Then we will perform the contents of the {} brackets until such a 
- * time that $you_are_a_poop becomes false. Now you can see on every iteration(loop), we
+ * time that $you_are_a_poop becomes false. Now you can see on every iteration/loop, we
  * increase the value of $counter, so when $counter equals 100 then we should leave the 
- * loop and proceed to print out 
+ * loop and proceed to print out our message. However you must be careful, because if 
+ * there is a bug in your code which never changes the value of $you_are_a_poop, the code
+ * will just keeping repeating this loop for ever (or till your machines runs out of memory)
+ *
+ * So lets put a while loop in your 0s and Xs game. I will write some code for you to copy over
+ * and modify. I would suggest you create a new game file and copy your previous code in bit by bit.
+ * while loop template :
 */
 
- 
-   
+// decide players 
+// <insert code for starting up game (e.g. get player names) >
+
+$game_turn = 1;
+$winner = false;
+// keep going untill we find a winner or we've had 9 turns
+while($game_turn <= 9 && $winner == false ){
+  
+  print "\n Game Turn ".$game_turn."\n";
+  // ask for player go
+  // <insert code for capturing player input
+  
+  // render game board for this turn
+  // <insert code for printing the game board to screen >
+  
+  $game_turn++; // do not remove this line
+}
+print "Game over! \n"; 
+  
+/*
+ *-------------------------------------------
+ * 3.4 Exercise time !
+ *-------------------------------------------
+ * Now you've integrated the while loop into your game you should 9 game turns.
+ * but you've not got anyway of detecting who has won and unless you've shot ahead
+ * i'm assuming you dont have a way of rotating between player 1 and player 2.
+ * So you've got two challenges:
+ * - write come code which will alternate between the two players
+ * - bit more challenging, write some code to detect if a new move ha resulted in a win
+ * - Extra points, can you now render who the winner is
+ */
    
 
 
