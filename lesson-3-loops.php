@@ -122,6 +122,9 @@ $names[3] = "susan";
    * - write some code to ask the player for a coordinate on their go
    * - take that coord and draw their symbol on the board
    * - extra points if you check if they entered a coord thats already been chosen
+   * - extra points if you can ask for the player names and store them
+   * - maybe you could render the player names and who is x and o
+   * 
    */
 
 
