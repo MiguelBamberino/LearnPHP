@@ -125,6 +125,9 @@ $names[3] = "susan";
    * - extra points if you can ask for the player names and store them
    * - maybe you could render the player names and who is x and o
    * 
+   * So now you're back and you have managed to render a game board to the screen
+   * you are going to want to know how we can make the game keep running and rendering
+   * each turn, for this we need loops!
    */
 
 
